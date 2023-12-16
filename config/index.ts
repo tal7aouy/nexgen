@@ -1,37 +1,37 @@
 export const PRODUCT_CATEGORIES = [
   {
-    label: 'UI Kits',
-    value: 'ui_kits' as const,
+    label: 'Development Tools',
+    value: 'development_tools' as const,
     featured: [
       {
-        name: 'Editor picks',
-        href: `/products?category=ui_kits`,
+        name: 'Editor\'s Picks',
+        href: `/products?category=development_tools`,
       },
       {
         name: 'New Arrivals',
-        href: '/products?category=ui_kits&sort=desc',
+        href: '/products?category=development_tools&sort=desc',
       },
       {
         name: 'Bestsellers',
-        href: '/products?category=ui_kits',
+        href: '/products?category=development_tools',
       },
     ],
   },
   {
-    label: 'Icons',
-    value: 'icons' as const,
+    label: 'Tech Icons',
+    value: 'tech_icons' as const,
     featured: [
       {
         name: 'Favorite Icon Picks',
-        href: `/products?category=icons`,
+        href: `/products?category=tech_icons`,
       },
       {
         name: 'New Arrivals',
-        href: '/products?category=icons&sort=desc',
+        href: '/products?category=tech_icons&sort=desc',
       },
       {
         name: 'Bestselling Icons',
-        href: '/products?category=icons'
+        href: '/products?category=tech_icons'
       },
     ],
   },
